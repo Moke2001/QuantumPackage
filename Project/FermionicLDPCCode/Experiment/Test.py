@@ -1,13 +1,155 @@
-from Project.FermionicLDPCCode.Main.MapChain import map_chain
-from QuantumComputation.ErrorCorrectionCode.PauliStabilizerCode.PauliOperator import PauliOperator
-from QuantumComputation.ErrorCorrectionCode.PauliStabilizerCode.PauliStabilizerCode import PauliStabilizerCode
-
+import matplotlib.pyplot as plt
+import numpy as np
+from qutip import *
 
 if __name__ == '__main__':
-    pauli_code = PauliStabilizerCode(5)
-    pauli_code.push(PauliOperator(1,['X', 'Z', 'Z', 'X', 'I']))
-    pauli_code.push(PauliOperator(1,['I', 'X', 'Z', 'Z', 'X']))
-    pauli_code.push(PauliOperator(1,['X', 'I', 'X', 'Z', 'Z']))
-    pauli_code.push(PauliOperator(1,['Z', 'X', 'I', 'X', 'Z']))
+    psi=tensor(fock(2,0),fock(2,1),fock(2,0),fock(2,1))
+    x=Qobj()
+    f_0_dag=fcreate(4,0)
+    f_0=f_0_dag.dag()
+    f_1_dag=fcreate(4,1)
+    f_1=f_1_dag.dag()
+    f_2_dag=fcreate(4,2)
+    f_2=f_2_dag.dag()
+    f_3_dag=fcreate(4,3)
+    f_3=f_3_dag.dag()
+    braid_01=(1j*(np.pi/2)*(f_0_dag*f_1+f_1_dag*f_0)).expm()
+    braid_12=(1j*(np.pi/2)*(f_1_dag*f_2+f_2_dag*f_1)).expm()
+    braid_23 = (1j *(np.pi/2)* (f_2_dag * f_3 + f_3_dag * f_2)).expm()
+    temp=Qobj(np.array([[1,0,0,0],[0,0,1,0],[0,1,0,0],[0,0,0,-1]]),dims=[[2,2],[2,2]])
+    fswap_01=tensor(temp,identity(2),identity(2))
+    fswap_12 = tensor(identity(2),temp,identity(2))
+    fswap_23 = tensor(identity(2),identity(2),temp)
+    n_0=f_0_dag*f_0
+    n_1=f_1_dag*f_1
+    n_2=f_2_dag*f_2
+    n_3=f_3_dag*f_3
+    expect_0_list = []
+    expect_1_list = []
+    expect_2_list = []
+    expect_3_list = []
+    sample_number=1
 
-    map_chain(pauli_code)
+    def noise(psi):
+        p=0.001
+        if np.random.random() < p:
+            psi = f_0 * psi + f_0_dag * psi
+            psi = psi / psi.norm()
+        if np.random.random() < p:
+            psi = 1j*(f_0 * psi - f_0_dag * psi)
+            psi = psi / psi.norm()
+        if np.random.random() < p:
+            psi = f_1 * psi + f_1_dag * psi
+            psi = psi / psi.norm()
+        if np.random.random() < p:
+            psi = 1j*(f_1 * psi - f_1_dag * psi)
+            psi = psi / psi.norm()
+        if np.random.random() < p:
+            psi = f_2 * psi + f_2_dag * psi
+            psi = psi / psi.norm()
+        if np.random.random() < p:
+            psi = 1j*(f_2 * psi - f_2_dag * psi)
+            psi = psi / psi.norm()
+        if np.random.random() < p:
+            psi = f_3 * psi + f_3_dag * psi
+            psi = psi / psi.norm()
+        if np.random.random() < p:
+            psi = 1j*(f_3 * psi - f_3_dag * psi)
+            psi = psi / psi.norm()
+        return psi
+
+    for sample in range(sample_number):
+        print('sample:', sample)
+        expect_0=[]
+        expect_1=[]
+        expect_2=[]
+        expect_3=[]
+        psi = tensor(fock(2, 0), fock(2, 1), fock(2, 0), fock(2,1))
+        for cycle in range(20):
+            psi = braid_01 * psi
+            psi=noise(psi)
+            psi = braid_12 * psi
+            psi=noise(psi)
+            psi = braid_23 * psi
+            psi=noise(psi)
+
+            P_list = []
+            I=tensor(identity(2),identity(2),identity(2),identity(2))
+            project_0_0=0
+            project_0_1=0
+            for eig in [temp*temp.dag() for temp in n_0.eigenstates()[1][0:8]]:
+                project_0_0=project_0_0+eig
+            for eig in [temp * temp.dag() for temp in n_0.eigenstates()[1][8:]]:
+                project_0_1 = project_0_1 + eig
+
+            project_1_0=0
+            project_1_1=0
+            for eig in [temp*temp.dag() for temp in n_1.eigenstates()[1][0:8]]:
+                project_1_0=project_1_0+eig
+            for eig in [temp * temp.dag() for temp in n_1.eigenstates()[1][8:]]:
+                project_1_1 = project_1_1 + eig
+
+
+            project_2_0 = 0
+            project_2_1 = 0
+            for eig in [temp*temp.dag() for temp in n_2.eigenstates()[1][0:8]]:
+                project_2_0=project_2_0+eig
+            for eig in [temp * temp.dag() for temp in n_2.eigenstates()[1][8:]]:
+                project_2_1 = project_2_1 + eig
+
+
+            if np.random.rand()<abs(psi.dag()*n_0*psi):
+                psi=project_0_1*psi
+                psi=psi/psi.norm()
+                expect_0.append(expect(n_0,psi))
+                expect_1.append(expect(n_1, psi))
+            else:
+                psi=project_0_0*psi
+                psi=psi/psi.norm()
+                expect_0.append(expect(n_0,psi))
+                expect_1.append(expect(n_1, psi))
+                psi=fswap_01*psi
+            psi=noise(psi)
+
+            if np.random.rand()<abs(psi.dag()*n_1*psi):
+                psi=project_1_1*psi
+                psi=psi/psi.norm()
+                expect_0.append(expect(n_0, psi))
+                expect_1.append(expect(n_1,psi))
+            else:
+                psi=project_1_0*psi
+                psi=psi/psi.norm()
+                expect_0.append(expect(n_0, psi))
+                expect_1.append(expect(n_1, psi))
+                psi=fswap_12*psi
+            psi=noise(psi)
+
+            if np.random.rand()<abs(psi.dag()*n_2*psi):
+                psi=project_2_1*psi
+                psi=psi/psi.norm()
+                expect_0.append(expect(n_0, psi))
+                expect_1.append(expect(n_1, psi))
+            else:
+                psi=project_2_0*psi
+                psi=psi/psi.norm()
+                expect_0.append(expect(n_0, psi))
+                expect_1.append(expect(n_1, psi))
+                psi=fswap_23*psi
+            psi=noise(psi)
+
+        if sample==0:
+            expect_0_list = np.array(expect_0)
+            expect_1_list = np.array(expect_1)
+            expect_2_list = np.array(expect_2)
+        else:
+            expect_0_list=np.array(expect_0)+expect_0_list
+            expect_1_list=np.array(expect_1)+expect_1_list
+            expect_2_list=np.array(expect_2)+expect_2_list
+
+    plt.plot(range(len(expect_0_list)),expect_0_list/sample_number)
+    # plt.plot(range(len(expect_1_list)),expect_1_list/sample_number)
+    # plt.plot(range(len(expect_2_list)),expect_2_list/sample_number)
+    # plt.plot(range(len(expect_3_list)),expect_3_list/sample_number)
+    plt.legend(['0','1','2','3'])
+    plt.savefig('test.pdf')
+    plt.show()
