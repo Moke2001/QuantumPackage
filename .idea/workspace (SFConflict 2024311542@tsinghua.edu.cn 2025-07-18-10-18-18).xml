@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="86b14b14-09f1-4b84-88c9-06f9797a7591" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/Physics/QuantumComputation/Code/ClassicalCode/hyperCode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/FermionicLDPCCode/Main/MemoryErrorRateBicycle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/FermionicLDPCCode/Main/MemoryErrorRateEuclid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/FermionicLDPCCode/Main/MemoryErrorRateProjectice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ToolBox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ToolBox.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace (SFConflict 2024311542@tsinghua.edu.cn 2025-02-17-21-45-55).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace (SFConflict 2024311542@tsinghua.edu.cn 2025-02-19-20-26-06).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace (SFConflict 2024311542@tsinghua.edu.cn 2025-05-19-11-03-02).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace (SFConflict 2024311542@tsinghua.edu.cn 2025-05-26-22-57-04).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace (SFConflict 2024311542@tsinghua.edu.cn 2025-06-14-14-38-48).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace (SFConflict 2024311542@tsinghua.edu.cn 2025-06-28-14-06-27).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace (SFConflict 2024311542@tsinghua.edu.cn 2025-06-28-21-05-11).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace (SFConflict 2024311542@tsinghua.edu.cn 2025-06-29-15-21-38).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace (SFConflict 2024311542@tsinghua.edu.cn 2025-07-04-14-52-04).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace (SFConflict 2024311542@tsinghua.edu.cn 2025-07-04-16-23-20).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace (SFConflict 徐崇元 2025-01-06-10-49-22).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Physics/QuantumComputation/CliffordSimulator/FermionicComputer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Physics/QuantumComputation/CliffordSimulator/FermionicComputer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Physics/QuantumComputation/Code/ClassicalCode/ProjectiveCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/Physics/QuantumComputation/Code/ClassicalCode/ProjectiveCode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode/Fermion/FermionicCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode/Fermion/FermionicCode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode/Fermion/FermionicLatticeSurgery.py" beforeDir="false" afterPath="$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode/Fermion/FermionicLatticeSurgery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/FermionicLDPCCode/Experiment/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/FermionicLDPCCode/Experiment/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/FermionicLDPCCode/Experiment/test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Project/FermionicLDPCCode/Experiment/test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/FermionicLDPCCode/Main/MemoryErrorRate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/FermionicLDPCCode/Main/Simulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/FermionicLDPCCode/Main/Simulation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/FermionicLDPCCode/Main/SurgeryErrorRate.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/FermionicLDPCCode/Main/SurgeryErrorRate.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Moke2001&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2zz52AwaUT4YHsh0pPvDh8s3HNR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.FermionicComputer.executor": "Debug",
+    "Python.MajoranaOperator.executor": "Debug",
+    "Python.Simulation.executor": "Debug",
+    "Python.SurgeryErrorRate.executor": "Run",
+    "Python.Test.executor": "Run",
+    "git-widget-placeholder": "master",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.Simulation">
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="ToolBox" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Simulation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ToolBox" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project/FermionicLDPCCode/Main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/FermionicLDPCCode/Main/Simulation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SurgeryErrorRate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ToolBox" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project/FermionicLDPCCode/Main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/FermionicLDPCCode/Main/SurgeryErrorRate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ToolBox" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project/FermionicLDPCCode/Experiment" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/FermionicLDPCCode/Experiment/Test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Simulation" />
+        <item itemvalue="Python.Test" />
+        <item itemvalue="Python.SurgeryErrorRate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
+        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="86b14b14-09f1-4b84-88c9-06f9797a7591" name="更改" comment="" />
+      <created>1752720853083</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752720853083</updated>
+      <workItem from="1752720854297" duration="7511000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Project/FermionicLDPCCode/Main/Simulation.py</url>
+          <line>146</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Project/FermionicLDPCCode/Main/Simulation.py</url>
+          <line>305</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Project/FermionicLDPCCode/Main/Simulation.py</url>
+          <line>253</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Project/FermionicLDPCCode/Main/Simulation.py</url>
+          <line>178</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Project/FermionicLDPCCode/Main/Simulation.py</url>
+          <line>205</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Project/FermionicLDPCCode/Main/Simulation.py</url>
+          <line>282</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="[computer.get_value(logical_n_operator_list[temp])[0]*logical_factors[temp] for temp in [0,1,2,3,4,5]]" language="Python" />
+        <watch expression="computer.noise_recoder_x" />
+        <watch expression="computer.noise_recoder_z" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ToolBox$FermiStabilizerCode__1_.coverage" NAME="FermiStabilizerCode (1) 覆盖结果" MODIFIED="1739779861226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QuantumComputation/ErrorCorrectionCode/FermiStabilizerCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$LSR.coverage" NAME="计算LSR 覆盖结果" MODIFIED="1733369631273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/ToolBox$DualContainingCode.coverage" NAME="DualContainingCode 覆盖结果" MODIFIED="1744104220688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Code/ClassicalCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$ttest.coverage" NAME="ttest 覆盖结果" MODIFIED="1751716067180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project/FermionicLDPCCode/Experiment" />
+    <SUITE FILE_PATH="coverage/ToolBox$MajoranaOperator.coverage" NAME="MajoranaOperator 覆盖结果" MODIFIED="1752675442408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode/Fermion" />
+    <SUITE FILE_PATH="coverage/ToolBox$FermionicLatticeSurgeryfix.coverage" NAME="FermionicLatticeSurgeryfix 覆盖结果" MODIFIED="1747831233720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$Te.coverage" NAME="Te 覆盖结果" MODIFIED="1747556322748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$LinearCode__1_.coverage" NAME="LinearCode (1) 覆盖结果" MODIFIED="1742288334556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/StabilizerSimulator/Code/ClassicalCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$FermionicStabilizerCode.coverage" NAME="FermionicStabilizerCode 覆盖结果" MODIFIED="1739523540847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QuantumComputation/ErrorCorrectionCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$MemoryErrorRateProjectice__1_.coverage" NAME="MemoryErrorRateProjectice (1) 覆盖结果" MODIFIED="1752423426918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project/FermionicLDPCCode/Main" />
+    <SUITE FILE_PATH="coverage/ToolBox$FermiStabilizerCode.coverage" NAME="FermiStabilizerCode 覆盖结果" MODIFIED="1739534415655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QuantumComputation/ErrorCorrectionCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$UnicycleCode.coverage" NAME="UnicycleCode 覆盖结果" MODIFIED="1751546404803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Code/ClassicalCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$MajoranaCSSCode.coverage" NAME="MajoranaCSSCode 覆盖结果" MODIFIED="1745828898352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$FermionicLatticeSurgery.coverage" NAME="FermionicLatticeSurgery 覆盖结果" MODIFIED="1752316012851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode/Fermion" />
+    <SUITE FILE_PATH="coverage/ToolBox$SurgeryErrorRate.coverage" NAME="SurgeryErrorRate 覆盖结果" MODIFIED="1752721071162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project/FermionicLDPCCode/Main" />
+    <SUITE FILE_PATH="coverage/ToolBox$NormalCode.coverage" NAME="NormalCode 覆盖结果" MODIFIED="1751618975108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Code/ClassicalCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$FermionicCodefix.coverage" NAME="FermionicCodefix 覆盖结果" MODIFIED="1747827243003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$EuclideanCode.coverage" NAME="EuclideanCode 覆盖结果" MODIFIED="1751871629627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Code/ClassicalCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$PhysicsQuantumCircuit.coverage" NAME="PhysicsQuantumCircuit 覆盖结果" MODIFIED="1739176451247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QuantumComputation/PhysicalQuantumCircuit" />
+    <SUITE FILE_PATH="coverage/ToolBox$tttest.coverage" NAME="tttest 覆盖结果" MODIFIED="1751882456490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project/FermionicLDPCCode/Experiment" />
+    <SUITE FILE_PATH="coverage/ToolBox$DegenerateJudge.coverage" NAME="DegenerateJudge 覆盖结果" MODIFIED="1751361911078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Helper" />
+    <SUITE FILE_PATH="coverage/ToolBox$MemoryErrorRateProjectice.coverage" NAME="MemoryErrorRateProjectice 覆盖结果" MODIFIED="1752554650469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project/FermionicLDPCCode/Main" />
+    <SUITE FILE_PATH="coverage/ToolBox$__1_.coverage" NAME="脚本 (1) 覆盖结果" MODIFIED="1734494768201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SSH模型中的多体局域化/EdgeStateLocalizationExpectationX" />
+    <SUITE FILE_PATH="coverage/ToolBox$Test.coverage" NAME="Test 覆盖结果" MODIFIED="1752753291005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project/FermionicLDPCCode/Experiment" />
+    <SUITE FILE_PATH="coverage/ToolBox$PauliStabilizerCode.coverage" NAME="PauliStabilizerCode 覆盖结果" MODIFIED="1739449093015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QuantumComputation/ErrorCorrectionCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$AlyEuclideanCode.coverage" NAME="AlyEuclideanCode 覆盖结果" MODIFIED="1751550377904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Code/ClassicalCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$test.coverage" NAME="test 覆盖结果" MODIFIED="1746871064682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$Example.coverage" NAME="Example 覆盖结果" MODIFIED="1733479939407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QutipToolBox" />
+    <SUITE FILE_PATH="coverage/ToolBox$distance.coverage" NAME="distance 覆盖结果" MODIFIED="1751534876620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project/FermionicLDPCCode/Experiment" />
+    <SUITE FILE_PATH="coverage/ToolBox$KnillLaflamme.coverage" NAME="KnillLaflamme 覆盖结果" MODIFIED="1739266896782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QuantumComputation/ErrorCorrectionCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$hyperCode.coverage" NAME="hyperCode 覆盖结果" MODIFIED="1752041335850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Code/ClassicalCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$FermionicCode.coverage" NAME="FermionicCode 覆盖结果" MODIFIED="1752311632915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode/Fermion" />
+    <SUITE FILE_PATH="coverage/ToolBox$CodeDistance.coverage" NAME="CodeDistance 覆盖结果" MODIFIED="1750162512456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project/FermionicLDPCCode/Main" />
+    <SUITE FILE_PATH="coverage/ToolBox$BitString.coverage" NAME="BitString 覆盖结果" MODIFIED="1742457649695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/CliffordSimulator/Code/ClassicalCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$EuclideanCode__1_.coverage" NAME="EuclideanCode (1) 覆盖结果" MODIFIED="1744702559018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Code/ClassicalCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$Simulation.coverage" NAME="Simulation 覆盖结果" MODIFIED="1752805025054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project/FermionicLDPCCode/Main" />
+    <SUITE FILE_PATH="coverage/ToolBox$Example__1_.coverage" NAME="Example (1) 覆盖结果" MODIFIED="1739169564881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QuantumComputation" />
+    <SUITE FILE_PATH="coverage/ToolBox$CSSCode.coverage" NAME="CSSCode 覆盖结果" MODIFIED="1743386483872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode/PauliCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$MajoranaCode.coverage" NAME="MajoranaCode 覆盖结果" MODIFIED="1747476588874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$MemoryErrorRateEuclid.coverage" NAME="MemoryErrorRateEuclid 覆盖结果" MODIFIED="1752565369707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project/FermionicLDPCCode/Main" />
+    <SUITE FILE_PATH="coverage/ToolBox$FermiOperator.coverage" NAME="FermiOperator 覆盖结果" MODIFIED="1739757131442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QuantumComputation/ErrorCorrectionCode/FermiStabilizerCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$Orthogonalize.coverage" NAME="Orthogonalize 覆盖结果" MODIFIED="1751341239431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Helper" />
+    <SUITE FILE_PATH="coverage/ToolBox$PauliHypergraphProductCode.coverage" NAME="PauliHypergraphProductCode 覆盖结果" MODIFIED="1742439049172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project/FermionicLDPCCode/Main" />
+    <SUITE FILE_PATH="coverage/ToolBox$ZechuanCode.coverage" NAME="ZechuanCode 覆盖结果" MODIFIED="1751508726088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Code/ClassicalCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$qutipLSR.coverage" NAME="用qutip计算LSR 覆盖结果" MODIFIED="1733638733094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/ToolBox$BicycleCode.coverage" NAME="BicycleCode 覆盖结果" MODIFIED="1751621583800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Code/ClassicalCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$.coverage" NAME=" 覆盖结果" MODIFIED="1746957305763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$PauliStabilizerCode__1_.coverage" NAME="PauliStabilizerCode (1) 覆盖结果" MODIFIED="1739699257673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QuantumComputation/ErrorCorrectionCode/PauliStabilizerCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$LinearCode.coverage" NAME="LinearCode 覆盖结果" MODIFIED="1744639124033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Code/ClassicalCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$FermionicComputer.coverage" NAME="FermionicComputer 覆盖结果" MODIFIED="1752675169139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/CliffordSimulator" />
+    <SUITE FILE_PATH="coverage/ToolBox$Css2Fermi.coverage" NAME="Css2Fermi 覆盖结果" MODIFIED="1742437776880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project/FermionicLDPCCode/Main" />
+    <SUITE FILE_PATH="coverage/ToolBox$MemoryErrorRate.coverage" NAME="MemoryErrorRate 覆盖结果" MODIFIED="1752214487684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project/FermionicLDPCCode/Main" />
+    <SUITE FILE_PATH="coverage/ToolBox$FermionicLatticeSurgery__1_.coverage" NAME="FermionicLatticeSurgery (1) 覆盖结果" MODIFIED="1748159676120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$MajoranaLatticeSurgery.coverage" NAME="MajoranaLatticeSurgery 覆盖结果" MODIFIED="1747226787010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$HyperbolicColoerCode.coverage" NAME="HyperbolicColoerCode 覆盖结果" MODIFIED="1751956503354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/Code/ClassicalCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$qutipLSR__1_.coverage" NAME="用qutip计算LSR (1) 覆盖结果" MODIFIED="1734492547230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ToolBox$MemoryErrorRateBicycle.coverage" NAME="MemoryErrorRateBicycle 覆盖结果" MODIFIED="1752554506734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project/FermionicLDPCCode/Main" />
+    <SUITE FILE_PATH="coverage/ToolBox$MajoranaCode__1_.coverage" NAME="MajoranaCode (1) 覆盖结果" MODIFIED="1742437118130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/CliffordSimulator/Code/QuantumCode" />
+    <SUITE FILE_PATH="coverage/ToolBox$MajoranaGroup.coverage" NAME="MajoranaGroup 覆盖结果" MODIFIED="1742437540560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/CliffordSimulator/Group" />
+    <SUITE FILE_PATH="coverage/ToolBox$Group.coverage" NAME="Group 覆盖结果" MODIFIED="1741313617429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algebra/Group" />
+  </component>
+</project>
