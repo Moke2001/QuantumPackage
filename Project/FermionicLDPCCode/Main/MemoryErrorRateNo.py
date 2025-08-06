@@ -1,9 +1,5 @@
-import matplotlib.pyplot as plt
 import numpy as np
-from qutip import *
 
-from Physics.QuantumComputation.Code.ClassicalCode.ProjectiveCode import ProjectiveCode
-from Physics.QuantumComputation.Code.QuantumCode.Fermion.FermionicCode import FermionicCode
 
 def rate_no(number):
     physical_error_rate=np.linspace(0.001,0.2,40)

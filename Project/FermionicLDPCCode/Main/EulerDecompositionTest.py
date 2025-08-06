@@ -1,8 +1,8 @@
-from Physics.QuantumComputation.Code.ClassicalCode.ProjectiveCode import ProjectiveCode
-from Physics.QuantumComputation.Code.QuantumCode.Fermion.FermionicCode import FermionicCode
-from Physics.QuantumComputation.Code.QuantumCode.Fermion.FermionicColorCode import FermionicColorCode
-from Physics.QuantumComputation.Code.QuantumCode.Fermion.FermionicLatticeSurgery import FermionicLatticeSurgery
-from Physics.QuantumComputation.Code.QuantumCode.Fermion.MajoranaOperator import MajoranaOperator
+from MokeQuantumComputation.Code import ProjectiveCode
+from MokeQuantumComputation.Code import FermionicCode
+from MokeQuantumComputation.Code.QuantumCode.Fermion.FermionicColorCode import FermionicColorCode
+from MokeQuantumComputation.Code import FermionicLatticeSurgery
+from MokeQuantumComputation.Code.QuantumCode.Fermion.MajoranaOperator import MajoranaOperator
 
 
 def EulerDecompositionTest():

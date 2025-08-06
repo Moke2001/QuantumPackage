@@ -1,12 +1,11 @@
 from multiprocessing import Pool
 import numpy as np
-from Physics.QuantumComputation.CliffordSimulator.FermionicComputer import FermionicComputer
-from Physics.QuantumComputation.Code.ClassicalCode.ProjectiveCode import ProjectiveCode
-from Physics.QuantumComputation.Code.QuantumCode.Fermion.FermionicCode import FermionicCode
-from Physics.QuantumComputation.Code.QuantumCode.Fermion.FermionicColorCode import FermionicColorCode
-from Physics.QuantumComputation.Code.QuantumCode.Fermion.FermionicLatticeSurgery import FermionicLatticeSurgery
-from Physics.QuantumComputation.Code.QuantumCode.Fermion.MajoranaOperator import MajoranaOperator
-from Physics.QuantumComputation.Code.QuantumCode.Fermion.ZechuanLatticeSurgery import ZechuanLatticeSurgery
+from MokeQuantumComputation.CliffordSimulator.FermionicComputer import FermionicComputer
+from MokeQuantumComputation.Code import ProjectiveCode
+from MokeQuantumComputation.Code import FermionicCode
+from MokeQuantumComputation.Code.QuantumCode.Fermion.FermionicColorCode import FermionicColorCode
+from MokeQuantumComputation.Code.QuantumCode.Fermion.MajoranaOperator import MajoranaOperator
+from MokeQuantumComputation.Code.QuantumCode.Fermion.ZechuanLatticeSurgery import ZechuanLatticeSurgery
 
 ##  创建内存纠错码
 code_memory = FermionicCode()

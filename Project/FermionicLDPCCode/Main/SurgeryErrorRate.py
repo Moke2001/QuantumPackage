@@ -1,12 +1,12 @@
 import copy
 from multiprocessing import Pool
 import numpy as np
-from Physics.QuantumComputation.CliffordSimulator.FermionicComputer import FermionicComputer
-from Physics.QuantumComputation.Code.ClassicalCode.ProjectiveCode import ProjectiveCode
-from Physics.QuantumComputation.Code.QuantumCode.Fermion.FermionicCode import FermionicCode
-from Physics.QuantumComputation.Code.QuantumCode.Fermion.FermionicColorCode import FermionicColorCode
-from Physics.QuantumComputation.Code.QuantumCode.Fermion.MajoranaOperator import MajoranaOperator
-from Physics.QuantumComputation.Code.QuantumCode.Fermion.ZechuanLatticeSurgery import ZechuanLatticeSurgery
+from MokeQuantumComputation.CliffordSimulator.FermionicComputer import FermionicComputer
+from MokeQuantumComputation.Code import ProjectiveCode
+from MokeQuantumComputation.Code import FermionicCode
+from MokeQuantumComputation.Code.QuantumCode.Fermion.FermionicColorCode import FermionicColorCode
+from MokeQuantumComputation.Code.QuantumCode.Fermion.MajoranaOperator import MajoranaOperator
+from MokeQuantumComputation.Code.QuantumCode.Fermion.ZechuanLatticeSurgery import ZechuanLatticeSurgery
 
 
 #%%  USER：计算量子线路执行结果

@@ -1,10 +1,5 @@
-import matplotlib.pyplot as plt
 import numpy as np
 from qutip import *
-
-from Physics.QuantumComputation.Code.ClassicalCode.ProjectiveCode import ProjectiveCode
-from Physics.QuantumComputation.Code.QuantumCode.Fermion.FermionicCode import FermionicCode
-
 
 if __name__ == '__main__':
     psi=tensor(fock(2,0),fock(2,1),fock(2,0),fock(2,1))

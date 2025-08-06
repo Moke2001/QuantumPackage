@@ -1,12 +1,8 @@
-import copy
 from multiprocessing import Pool
 import numpy as np
-from matplotlib import pyplot as plt
-from Physics.QuantumComputation.CliffordSimulator.FermionicComputer import FermionicComputer
-from Physics.QuantumComputation.Code.ClassicalCode.BicycleCode import BicycleCode
-from Physics.QuantumComputation.Code.ClassicalCode.EuclideanCode import EuclideanCode
-from Physics.QuantumComputation.Code.ClassicalCode.ProjectiveCode import ProjectiveCode
-from Physics.QuantumComputation.Code.QuantumCode.Fermion.FermionicCode import FermionicCode
+from MokeQuantumComputation.CliffordSimulator.FermionicComputer import FermionicComputer
+from MokeQuantumComputation.Code import ProjectiveCode
+from MokeQuantumComputation.Code import FermionicCode
 
 
 # %%  USER：计算量子线路执行结果

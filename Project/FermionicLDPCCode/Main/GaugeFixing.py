@@ -1,7 +1,7 @@
 import copy
 import galois
 import numpy as np
-from Physics.QuantumComputation.Helper.FiniteFieldSolve import FiniteFieldSolve
+from MokeQuantumComputation.Helper import FiniteFieldSolve
 
 
 GF=galois.GF(2**1)
