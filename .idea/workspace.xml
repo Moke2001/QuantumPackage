@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86b14b14-09f1-4b84-88c9-06f9797a7591" name="更改" comment="修订">
-      <change afterPath="$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode/Fermion/ZechuanLatticeSurgery.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Physics/QuantumComputation/Helper/LinearSpaceCap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/FermionicLDPCCode/Main/ErrorType.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/FermionicLDPCCode/Main/EulerDecompositionTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/FermionicLDPCCode/Main/GaugeFixing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/FermionicLDPCCode/Main/Test.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/FermionicLDPCCode/Main/Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Physics/QuantumComputation/CliffordSimulator/FermionicComputer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Physics/QuantumComputation/CliffordSimulator/FermionicComputer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode/Fermion/FermionicCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode/Fermion/FermionicCode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode/Fermion/FermionicColorCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode/Fermion/FermionicColorCode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode/Fermion/FermionicLatticeSurgery.py" beforeDir="false" afterPath="$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode/Fermion/FermionicLatticeSurgery.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Physics/QuantumComputation/Helper/CycleComposition.py" beforeDir="false" afterPath="$PROJECT_DIR$/Physics/QuantumComputation/Helper/CycleComposition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Physics/QuantumComputation/Helper/FiniteFieldSolve.py" beforeDir="false" afterPath="$PROJECT_DIR$/Physics/QuantumComputation/Helper/FiniteFieldSolve.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Physics/QuantumComputation/Helper/QuantumCodeDistance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Physics/QuantumComputation/Helper/QuantumCodeDistance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/FermionicLDPCCode/Main/Simulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/FermionicLDPCCode/Main/Simulation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/FermionicLDPCCode/Main/SurgeryErrorRate.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/FermionicLDPCCode/Main/SurgeryErrorRate.py" afterDir="false" />
-    </list>
+    <list default="true" id="86b14b14-09f1-4b84-88c9-06f9797a7591" name="更改" comment="修订" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +19,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="INCOMING_CHECK_STRATEGY" value="从不" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -84,7 +67,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.project.statistic.project.settings",
+    "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -264,7 +247,7 @@
       <workItem from="1754288438668" duration="4838000" />
       <workItem from="1754300855893" duration="18657000" />
       <workItem from="1754371895896" duration="10223000" />
-      <workItem from="1754401888341" duration="5694000" />
+      <workItem from="1754401888341" duration="6944000" />
     </task>
     <task id="LOCAL-00001" summary="修订">
       <option name="closed" value="true" />
@@ -282,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753415107589</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修订">
+      <option name="closed" value="true" />
+      <created>1754451109501</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1754451109501</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,8 +298,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode/Fermion/FermionicLatticeSurgery.py</url>
-          <line>304</line>
-          <option name="timeStamp" value="85" />
+          <line>68</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Physics/QuantumComputation/Code/QuantumCode/Fermion/FermionicLatticeSurgery.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="89" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -377,7 +373,7 @@
     <SUITE FILE_PATH="coverage/ToolBox$MemoryErrorRateNo.coverage" NAME="MemoryErrorRateNo 覆盖结果" MODIFIED="1752915653080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project/FermionicLDPCCode/Main" />
     <SUITE FILE_PATH="coverage/ToolBox$MajoranaCode__1_.coverage" NAME="MajoranaCode (1) 覆盖结果" MODIFIED="1742437118130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/CliffordSimulator/Code/QuantumCode" />
     <SUITE FILE_PATH="coverage/ToolBox$MajoranaGroup.coverage" NAME="MajoranaGroup 覆盖结果" MODIFIED="1742437540560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Physics/QuantumComputation/CliffordSimulator/Group" />
-    <SUITE FILE_PATH="coverage/ToolBox$EulerDecompositionTest.coverage" NAME="EulerDecompositionTest 覆盖结果" MODIFIED="1754403329396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project/FermionicLDPCCode/Main" />
+    <SUITE FILE_PATH="coverage/ToolBox$EulerDecompositionTest.coverage" NAME="EulerDecompositionTest 覆盖结果" MODIFIED="1754443141728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project/FermionicLDPCCode/Main" />
     <SUITE FILE_PATH="coverage/ToolBox$Group.coverage" NAME="Group 覆盖结果" MODIFIED="1741313617429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algebra/Group" />
   </component>
 </project>
